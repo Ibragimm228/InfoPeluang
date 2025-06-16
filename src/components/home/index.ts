@@ -1,0 +1,7 @@
+export { AboutSection } from '@/components/home/about'
+export { CategoriesSection } from '@/components/home/categories'
+export { CallToActionSection } from '@/components/home/cta'
+export { FeaturedArticlesSection } from '@/components/home/featured'
+export { Hero } from '@/components/home/hero'
+export { LatestArticlesSection } from '@/components/home/latest'
+export { TestimonialsSection } from '@/components/home/testimonials'

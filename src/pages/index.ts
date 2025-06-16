@@ -1,0 +1,7 @@
+export * from './about'
+export * from './home'
+export * from './contacts'
+export * from './privacy-policy'
+export * from './blog'
+export * from './article'
+export * from './not-found'
