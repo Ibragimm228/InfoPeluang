@@ -23,7 +23,7 @@ const ArticleCardMedium: React.FC<ArticleCardMediumProps> = ({ article }) => {
 					<span className='inline-block bg-blue-100 text-blue-600 text-xs font-semibold px-2 py-1 rounded-full'>
 						{article.type}
 					</span>
-					<h3 className='mt-2 text-xl font-bold text-gray-900 group-hover:text-blue-600'>
+					<h3 className='mt-2 text-xl font-bold text-red-600 group-hover:text-red-500'>
 						{article.title}
 					</h3>
 					<p className='mt-2 text-base text-gray-600 line-clamp-2'>
