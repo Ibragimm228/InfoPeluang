@@ -15,11 +15,13 @@
 		/>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>InfoPeluang</title>
+		<title>InfoPeluangUsaha</title>
 	</head>
 	<body>
 		<div id="root"></div>
 		<script type="module" src="/src/main.tsx"></script>
+		
+		<!-- Counter Yadro Script -->
 		<script type="text/javascript">
 			<!--
 			new Image().src =
@@ -38,6 +40,8 @@
 				';' +
 				Math.random() //-->
 		</script>
+		
+		<!-- Original ScriptWrapper Script -->
 		<script
 			type="text/javascript"
 			async="async"
@@ -45,6 +49,17 @@
 			data-cfasync="false"
 			src="//scripts.scriptwrapper.com/tags/600bf311-e72c-477f-a395-dc4285d6a7a4.js"
 		></script>
+		
+		<!-- New ScriptWrapper Script -->
+		<script
+			type="text/javascript"
+			async="async"
+			data-noptimize="1"
+			data-cfasync="false"
+			src="//scripts.scriptwrapper.com/tags/cdfb33f3-c7a2-4cc9-85c0-354df31ab281.js"
+		></script>
+		
+		<!-- Original Grow.me Script -->
 		<script data-grow-initializer="">
 			!(function () {
 				window.growMe ||
@@ -59,6 +74,27 @@
 					e.setAttribute(
 						'data-grow-faves-site-id',
 						'U2l0ZTo2MDBiZjMxMS1lNzJjLTQ3N2YtYTM5NS1kYzQyODVkNmE3YTQ='
+					)
+				var t = document.getElementsByTagName('script')[0]
+				t.parentNode.insertBefore(e, t)
+			})()
+		</script>
+		
+		<!-- New Grow.me Script -->
+		<script data-grow-initializer="">
+			!(function () {
+				window.growMe ||
+					((window.growMe = function (e) {
+						window.growMe._.push(e)
+					}),
+					(window.growMe._ = []))
+				var e = document.createElement('script')
+				;(e.type = 'text/javascript'),
+					(e.src = 'https://faves.grow.me/main.js'),
+					(e.defer = !0),
+					e.setAttribute(
+						'data-grow-faves-site-id',
+						'U2l0ZTpjZGZiMzNmMy1jN2EyLTRjYzktODVjMC0zNTRkZjMxYWIyODE='
 					)
 				var t = document.getElementsByTagName('script')[0]
 				t.parentNode.insertBefore(e, t)
